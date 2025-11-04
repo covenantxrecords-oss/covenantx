@@ -1,0 +1,27 @@
+[
+  {
+    "id": "covenantx-core",
+    "title": "🌌 CovenantX — MVP v2 Framework",
+    "prompt": "Create a developer-ready draft of the CovenantX MVP v2 Framework, fully integrated with mythic design, spiritual UX, and technical implementation. This document should be structured for immediate use in a GitHub repo, onboarding materials, or pitch decks. It must synthesize the Garden of Wisdom metaphors and spiritual design principles with the MVP starter codebase and deployment pack. Include the following sections: Mythic Core, Visual Language & Design Tokens, Pillars of the Ecosystem, Community Archetypes, Ritual Interfaces, Metadata Schema (JSON-LD), Core Components (with code references), Backend Routes, Developer Sprint Plan. Format as a Markdown document with clear headers, tables, and code blocks. Use mythic and visionary language throughout. Ensure the document is technically actionable and spiritually resonant."
+  },
+  {
+    "id": "covenantx-frontend",
+    "title": "🧿 CovenantX Frontend — Sacred Geometry UI",
+    "prompt": "Generate the frontend codebase for CovenantX using Next.js 14, Tailwind CSS, RainbowKit, and Wagmi. Implement sacred geometry UI with hexagonal card grids, concentric ring layouts, and mandala animations. Pages include: Home, Marketplace, Profile, Studio (Publish+Mint), Ritual Board, Dashboard. Include components like HexCard.tsx, SpiralPaywall.tsx, Gated.tsx, and AnimatedLoader.tsx. Use brand tokens: Core Glow Cyan #9CEBFF, Mandala Purple #9B5DE5, Solar Gold #FFD166, Verdant Green #06D6A0, Ink Black #0B0B12, Starlight White #FFFFFF. Typography: Montserrat (display), Inter (body). Include PWA setup, SIWE login helper, and .env.local.example. Layouts should follow golden ratio (62/38 split) and include animated transitions for ritual unlocks (seed → sprout → bloom)."
+  },
+  {
+    "id": "covenantx-backend",
+    "title": "🛡 CovenantX Backend — Ritual API & Reward Engine",
+    "prompt": "Generate the backend codebase for CovenantX using Node.js 20, Express, TypeScript, and Prisma with Postgres. Implement REST API routes for auth (SIWE), content publishing (IPFS), NFT minting, membership checks (Unlock Protocol), and user dashboard metrics. Include models: User(walletAddress, ensName?, lensHandle?, ritualLevel, badges[]), Content(id, creatorId, title, description, ipfsCid, metadataCid, minted:boolean, tokenId?, contractAddr?, lowRankScore:number, createdAt), ShareAction(userId, contentId, weightAtShare:number, refCode, timestamp), RewardLedger(userId, epoch, points:number, reason, claimed:boolean, onChainTxHash?), Membership(userId, lockAddress, tier, validUntil), Intention(userId, text, tags[], embeddingVector?, clusterId?, status). Implement reward engine logic: points = weight(event) * (1/(rankPct+0.02))^0.7 * touchSplit * gamma. Include OpenAPI spec, Zod validation, Dockerfile, .env.example, and CORS config. Ensure all inputs are type-safe and endpoints are documented."
+  },
+  {
+    "id": "covenantx-contracts",
+    "title": "🔗 CovenantX Smart Contracts — ERC-721 + Royalties",
+    "prompt": "Generate the smart contracts for CovenantX using Hardhat and Solidity. Implement CovenantX721.sol with ERC-721 and ERC-2981 royalty support. Include functions: safeMint(to, uri), setMinter(addr), royaltyInfo. Configure for Polygon Amoy testnet and mainnet. Include deploy.ts, setMinter.ts, and verify.ts scripts. Provide README with deploy steps and contract address output. Ensure royalty metadata is compatible with OpenSea and other marketplaces. Contracts should reflect mythic naming conventions (e.g. ArcOfImageNation.sol, RitualToken.sol) and include ceremonial events (e.g. MintBlessed, SeedPlanted)."
+  },
+  {
+    "id": "covenantx-wellness-ai",
+    "title": "🕊 CovenantX Wellness AI — Ritual Guidance & Blessing Engine",
+    "prompt": "Design the AI subsystem for CovenantX that guides users through rituals, intentions, and creative wellness. Implement interfaces for Intention Board, Covenant Ceremony, Digital Sabbath, and Prayer Wall. AI should offer gentle, non-intrusive guidance using mythic language and ceremonial metaphors. Include prompt templates for blessing messages, ritual affirmations, and lineage tracing. Integrate with user metadata to personalize feedback. Ensure all outputs are spiritually resonant, culturally neutral, and opt-in. Use the Garden of Wisdom metaphors: Angelic Intelligence, Tree of Life, Kosmic Code. Include sample prompts for AI-generated affirmations, seasonal rituals, and creative lineage blessings."
+  }
+]
