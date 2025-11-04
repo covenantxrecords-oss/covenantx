@@ -1,2 +1,2 @@
-# covenantx
-A mythic-technical platform for creator sovereignty, built on sacred geometry and regenerative design.
+# 🧿 CovenantX Prompt Pack
+This folder contains multi-agent prompts for frontend, backend, contracts, and wellness AI.
